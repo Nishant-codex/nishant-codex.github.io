@@ -23,7 +23,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 export default defineConfig({
 	site: 'nishant-codex.github.io',
 	image: {
-		domains: ["webmention.io"],
+		domains: ["github.io"],
 	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
