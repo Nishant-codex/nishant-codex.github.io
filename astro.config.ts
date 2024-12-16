@@ -21,7 +21,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://nishant-codex.github.io",
+
 	image: {
 		domains: ["github.io"],
 	},
@@ -97,7 +97,7 @@ export default defineConfig({
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
 	// ! Please remember to replace the following site property with your own domain
-	site: "https://astro-cactus.chriswilliams.dev/",
+	site: "https://nishant-codex.github.io/",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
