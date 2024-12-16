@@ -21,7 +21,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://nishant-codex.github.io',
+	site: "https://nishant-codex.github.io",
 	image: {
 		domains: ["github.io"],
 	},
