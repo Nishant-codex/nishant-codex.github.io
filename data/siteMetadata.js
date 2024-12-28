@@ -10,7 +10,6 @@ const siteMetadata = {
   siteRepo: 'https://github.com/nishant-codex.github.io',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-
   email: 'nishantjoshie@gmail.com',
   github: 'https://github.com/nishant-codex',
   x: 'https://x.com/imatwistedsaint',
