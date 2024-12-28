@@ -6,19 +6,16 @@ const siteMetadata = {
   description: '',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://nishant-codex.github.io/',
+  siteRepo: 'https://github.com/nishant-codex.github.io',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
+
   email: 'nishantjoshie@gmail.com',
   github: 'https://github.com/nishant-codex',
   x: 'https://x.com/imatwistedsaint',
   // twitter: 'https://twitter.com/Twitter',
   linkedin: 'https://www.linkedin.com/in/nishantintro/',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com',
   bluesky: 'https://bsky.app/profile/nishantjoshi.bsky.social',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
