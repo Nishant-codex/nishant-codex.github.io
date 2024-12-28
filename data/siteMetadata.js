@@ -13,8 +13,7 @@ const siteMetadata = {
   email: 'nishantjoshie@gmail.com',
   github: 'https://github.com/nishant-codex',
   x: 'https://x.com/imatwistedsaint',
-  // twitter: 'https://twitter.com/Twitter',
-  linkedin: 'https://www.linkedin.com/in/nishantintro/',
+  linkedin: 'https://www.linkedin.com/in/nishantintro',
   bluesky: 'https://bsky.app/profile/nishantjoshi.bsky.social',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
