@@ -15,8 +15,6 @@ const siteMetadata = {
   github: 'https://github.com/nishant-codex',
   x: 'https://x.com/imatwistedsaint',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/nishantintro/',
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
