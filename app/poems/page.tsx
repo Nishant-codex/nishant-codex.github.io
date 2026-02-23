@@ -1,4 +1,4 @@
-import ListLayout from '@/layouts/ListLayout'
+import PoemsListLayout from '@/layouts/PoemsListLayout'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer'
 import { allPoems } from 'contentlayer/generated'
 import { genPageMetadata } from 'app/seo'
@@ -20,7 +20,7 @@ export default function PoemsPage() {
   }
 
   return (
-    <ListLayout
+    <PoemsListLayout
       posts={poems}
       initialDisplayPosts={initialDisplayPosts}
       pagination={pagination}
