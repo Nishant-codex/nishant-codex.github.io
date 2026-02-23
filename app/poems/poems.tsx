@@ -1,4 +1,4 @@
-import { allPoems } from 'contentlayer/generated'
+import poemsData from '@/data/poemsData'
 import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
 
@@ -13,18 +13,18 @@ export default function Poems() {
             Poems
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            My personal collection of poems
+            A collection of my personal poems and reflections
           </p>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {allPoems.map((d) => (
+            {poemsData.map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
-                description={d.summary}
-                imgSrc={d.images ? d.images[0] : undefined}
-                href={`/${d.path}`}
+                description={d.description}
+                imgSrc={d.imgSrc}
+                href={d.href}
               />
             ))}
           </div>
