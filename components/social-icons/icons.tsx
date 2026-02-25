@@ -65,23 +65,17 @@ export function X(svgProps: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
-
 export function Scholar(svgProps: SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...svgProps}>
-      <title>Scholar</title>
-      {/* cap (darker tone via opacity) */}
-      <path fill="currentColor" opacity="0.95" d="M12 2 1 7l11 5 9-4.09V7L12 2z" />
-      {/* brim / tassel / circle (lighter via opacity) */}
+      <title>Google Scholar</title>
       <path
         fill="currentColor"
-        opacity="0.6"
-        d="M11 12.1 3.36 8 11 4.9 18.64 8 11 12.1zM7 13v6h2v-4h6v4h2v-6l-7-3.2L7 13z"
+        d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"
       />
     </svg>
-  )
+  );
 }
-
 export function Youtube(svgProps: SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...svgProps}>
