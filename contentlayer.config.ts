@@ -174,6 +174,7 @@ export const Authors = defineDocumentType(() => ({
     cv: { type: 'string' }, 
     email: { type: 'string' },
     x : { type: 'string' },
+    scholar: { type: 'string' },
     twitter: {type: 'string'},
     bluesky: { type: 'string' },
     linkedin: { type: 'string' },

@@ -11,6 +11,7 @@ import {
   Instagram,
   Medium,
   Bluesky,
+  CV,
   Scholar,
 } from './icons'
 
