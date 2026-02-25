@@ -14,6 +14,7 @@ const siteMetadata = {
   github: 'https://github.com/nishant-codex',
   twitter: 'https://x.com/imatwistedsaint',
   x: 'https://x.com/imatwistedsaint',
+  scholar: 'https://scholar.google.com/citations?user=NSO37toAAAAJ&hl=en',
   linkedin: 'https://www.linkedin.com/in/nishantintro',
   bluesky: 'https://bsky.app/profile/nishantjoshi.bsky.social',
   locale: 'en-US',
