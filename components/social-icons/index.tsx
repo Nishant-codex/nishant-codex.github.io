@@ -11,7 +11,7 @@ import {
   Instagram,
   Medium,
   Bluesky,
-  CV,
+  Scholar,
 } from './icons'
 
 const components = {
@@ -21,7 +21,7 @@ const components = {
   youtube: Youtube,
   linkedin: Linkedin,
   twitter: Twitter,
-  x: X,
+  scholar: Scholar,
   mastodon: Mastodon,
   threads: Threads,
   instagram: Instagram,
