@@ -73,7 +73,11 @@ export function Scholar(svgProps: SVGProps<SVGSVGElement>) {
       {/* cap (darker tone via opacity) */}
       <path fill="currentColor" opacity="0.95" d="M12 2 1 7l11 5 9-4.09V7L12 2z" />
       {/* brim / tassel / circle (lighter via opacity) */}
-      <path fill="currentColor" opacity="0.6" d="M11 12.1 3.36 8 11 4.9 18.64 8 11 12.1zM7 13v6h2v-4h6v4h2v-6l-7-3.2L7 13z" />
+      <path
+        fill="currentColor"
+        opacity="0.6"
+        d="M11 12.1 3.36 8 11 4.9 18.64 8 11 12.1zM7 13v6h2v-4h6v4h2v-6l-7-3.2L7 13z"
+      />
     </svg>
   )
 }
