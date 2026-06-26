@@ -24,8 +24,8 @@ export default function Home() {
               </h1>
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
                 I’m Nishant, a researcher working at the crossroads of machine learning, robotics,
-                and computational neuroscience. My work focuses on building intelligent systems
-                that are both theoretically grounded and practically useful.
+                and computational neuroscience. My work focuses on building intelligent systems that
+                are both theoretically grounded and practically useful.
               </p>
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
                 I’m currently pursuing my PhD and enjoy exploring how computation can help us
