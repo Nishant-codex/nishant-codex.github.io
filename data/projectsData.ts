@@ -50,11 +50,11 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/google.png',
     href: 'https://github.com/Nishant-codex/Siamese_net',
   },
-  
+
  {
     title: 'Manifold Alignment for Neural Data',
     description: `I utlized UNICOMM algorithm to compare neuronal properties recorded across two input protocols by aligning the high-dimensional mainfolds.`,
-    imgSrc: '/static/images/robotics.jpg',
+    imgSrc: '/static/images/google.png',
     href: 'https://www.google.com',
   },
 
