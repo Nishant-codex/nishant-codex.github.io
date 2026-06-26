@@ -17,10 +17,7 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-]
 
-
-const projectsData: Project[] = [
   {
     title: 'GLIF Model Fitting',
     description: `In this project, I refurbished the approach for 
@@ -31,9 +28,6 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-]
-
-const projectsData: Project[] = [
   {
     title: 'Fitting Fritz-Hugh Nagumo Model on fMRI Data',
     description: `In this project, I fitted the Fritz-Hugh Nagumo model to fMRI data. 
@@ -42,9 +36,6 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-]
-
-const projectsData: Project[] = [
   {
     title: 'Brain2 based neuron models',
     description: `This was a side project to implement common neuron models in order to fit them to noisy single cell electrophysiological data`,
@@ -52,8 +43,7 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-]
-const projectsData: Project[] = [
+
   {
     title: 'Manifold Alignment for Neural Data',
     description: `I utlized UNICOMM algorithm to compare neuronal properties recorded across two input protocols by aligning the high-dimensional mainfolds.`,
@@ -61,10 +51,6 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-]
-
-
-const projectsData: Project[] = [
   {
     title: 'Siamese Neural Network for extracting neural signatures',
     description: `I implemented a Siamese neural network to extract meaningful signatures of neurons recorded across two different patch clamp protocols.`,
@@ -72,9 +58,7 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-]
 
-const projectsData: Project[] = [
   {
     title: 'Reverse Engineering Recurrent Neural Networks',
     description: `I reverse engineered RNNs and SNNs by extracting their dynamical structure and internal representaion, in order to understand how they learn a memory task with different design choices.`,
