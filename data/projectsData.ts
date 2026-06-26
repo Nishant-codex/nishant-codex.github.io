@@ -7,6 +7,14 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Swiss-Kinfe for electrophysiology',
+    description: `In this project, I designed an end to end pipeline for analyzing single cell electrophysiolical data. 
+    The workflows ranges from preprocessing, feature extraction to unsupervised clustering and multi-modal integration. `,
+    imgSrc: '/static/images/swissknife.png',
+    href: 'https://github.com/Nishant-codex/CBS_path_planner',
+  },
+
+  {
     title: 'Autonomous Warehousing',
     description: `In this project, we developed an autonomous warehousing system
      that utilizes advanced robotics and AI algorithms to optimize inventory management 
