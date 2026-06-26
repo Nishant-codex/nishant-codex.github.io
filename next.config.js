@@ -80,7 +80,12 @@ module.exports = () => {
       ],
       unoptimized,
     },
+    trailingSlash: true,
     async headers() {
+      if (output === 'export') {
+        return []
+      }
+
       return [
         {
           source: '/(.*)',
