@@ -10,26 +10,27 @@ interface Publication {
 }
 
 const publicationsData: Publication[] = [
+
+
   {
-    author: '**Joshi, N.**',
-    title: 'Learning structured representations for adaptive robotic control',
-    journal: 'Journal of Machine Learning Research',
-    volume: '24',
-    pages: '1–32',
-    year: '2024',
-    doi: '10.1234/jmlr.2024.001',
-    href: 'https://scholar.google.com/citations?user=NSO37toAAAAJ&hl=en',
+    author: '*Joshi, N.*, van Der Burg, S., Celikel, T., & Zeldenrust, F.',
+    title: 'Neuronal identity is not static: An input-driven perspective',
+    journal: 'PLOS Computational Biology',
+    volume: '21',
+    pages: 'e1013821',
+    year: '2025',
+    doi: '10.1371/journal.pcbi.1013821',
+    href: 'https://doi.org/10.1371/journal.pcbi.1013821',
   },
   {
-    author: '**Joshi, N.**',
-    title: 'Neural mechanisms of flexible decision making in dynamic environments',
-    journal: 'Nature Computational Science',
-    volume: '3',
-    pages: '118–129',
-    year: '2023',
-    doi: '10.1234/ncs.2023.002',
-    href: '/projects',
+    author: '*Joshi, N.*, Yan, X., ..., Celikel, T., & Zeldenrust, F.',
+    title: 'Neuromodulatory Control of Cortical Function: Cell-Type Specific Regulation of Neuronal Information Transfer',
+    journal: 'bioRxiv',
+    year: '2026',
+    doi: '10.1101/2026.03.04.669845v1',
+    href: 'https://www.biorxiv.org/content/10.1101/2026.03.04.669845v1',
   },
+
 ]
 
 export default publicationsData
