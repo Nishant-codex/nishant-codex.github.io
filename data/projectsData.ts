@@ -17,6 +17,12 @@ const projectsData: Project[] = [
     href: 'https://github.com/Nishant-codex/CBS_path_planner',
   },
 
+  {
+    title: 'Reverse Engineering Recurrent Neural Networks',
+    description: `I reverse engineered RNNs and SNNs by extracting their dynamical structure and internal representaion, in order to understand how they learn a memory task with different design choices.`,
+    imgSrc: '/static/images/fixed_points.png',
+    href: 'https://github.com/Nishant-codex/rnn_flip_flops',
+  },
 
   {
     title: 'GLIF Model Fitting',
@@ -36,6 +42,23 @@ const projectsData: Project[] = [
     href: 'https://github.com/Nishant-codex/Controllability',
   },
 
+
+ 
+  {
+    title: 'Siamese Neural Network for extracting neural signatures',
+    description: `I implemented a Siamese neural network to extract meaningful signatures of neurons recorded across two different patch clamp protocols.`,
+    imgSrc: '/static/images/google.png',
+    href: 'https://github.com/Nishant-codex/Siamese_net',
+  },
+  
+ {
+    title: 'Manifold Alignment for Neural Data',
+    description: `I utlized UNICOMM algorithm to compare neuronal properties recorded across two input protocols by aligning the high-dimensional mainfolds.`,
+    imgSrc: '/static/images/robotics.jpg',
+    href: 'https://www.google.com',
+  },
+
+
   {
     title: 'Brain2 based neuron models',
     description: `This was a side project to implement common neuron models in order to fit them to noisy single cell electrophysiological data`,
@@ -44,27 +67,6 @@ const projectsData: Project[] = [
   },
 
 
-  {
-    title: 'Manifold Alignment for Neural Data',
-    description: `I utlized UNICOMM algorithm to compare neuronal properties recorded across two input protocols by aligning the high-dimensional mainfolds.`,
-    imgSrc: '/static/images/robotics.jpg',
-    href: 'https://www.google.com',
-  },
-
-  {
-    title: 'Siamese Neural Network for extracting neural signatures',
-    description: `I implemented a Siamese neural network to extract meaningful signatures of neurons recorded across two different patch clamp protocols.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://github.com/Nishant-codex/Siamese_net',
-  },
-
-
-  {
-    title: 'Reverse Engineering Recurrent Neural Networks',
-    description: `I reverse engineered RNNs and SNNs by extracting their dynamical structure and internal representaion, in order to understand how they learn a memory task with different design choices.`,
-    imgSrc: '/static/images/fixed_points.png',
-    href: 'https://github.com/Nishant-codex/rnn_flip_flops',
-  },
 
 ]
 
