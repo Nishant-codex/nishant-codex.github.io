@@ -19,7 +19,7 @@ export default function Home() {
               />
             </div>
             <div className="space-y-3">
-              <h1 className="text-3xl font-extrabold leading-7 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              <h1 className="text-2xl font-bold leading-7 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-10">
                 About me
               </h1>
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
