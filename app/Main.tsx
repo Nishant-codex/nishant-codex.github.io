@@ -76,15 +76,24 @@ export default function Home() {
           </h2>
           <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
             You can find me on{' '}
-            <Link href={siteMetadata.github} className="text-primary-500 hover:text-primary-600">
+            <Link
+              href={siteMetadata.github || 'https://github.com'}
+              className="text-primary-500 hover:text-primary-600"
+            >
               GitHub
             </Link>
             ,{' '}
-            <Link href={siteMetadata.linkedin} className="text-primary-500 hover:text-primary-600">
+            <Link
+              href={siteMetadata.linkedin || 'https://www.linkedin.com'}
+              className="text-primary-500 hover:text-primary-600"
+            >
               LinkedIn
             </Link>
             , or via{' '}
-            <Link href={siteMetadata.scholar} className="text-primary-500 hover:text-primary-600">
+            <Link
+              href={siteMetadata.scholar || 'https://scholar.google.com'}
+              className="text-primary-500 hover:text-primary-600"
+            >
               Google Scholar
             </Link>
             .
