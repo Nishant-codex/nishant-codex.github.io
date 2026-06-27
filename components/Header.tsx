@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
@@ -12,7 +13,9 @@ import SearchButton from './SearchButton'
 const languagePhrases = ['Bienvenue', 'Bienvenidos', 'Welcome', '欢迎', 'Willkommen', 'ようこそ']
 
 const Header = () => {
+  const pathname = usePathname()
   const [activeLanguage, setActiveLanguage] = useState(0)
+  const [animationKey, setAnimationKey] = useState(0)
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
@@ -21,6 +24,10 @@ const Header = () => {
 
     return () => window.clearInterval(intervalId)
   }, [])
+
+  useEffect(() => {
+    setAnimationKey((current) => current + 1)
+  }, [pathname])
 
   let headerClass = 'flex items-center w-full bg-white dark:bg-gray-950 justify-between py-10'
   if (siteMetadata.stickyNav) {
@@ -40,7 +47,7 @@ const Header = () => {
             </div>
             <div className="relative mt-1 h-6 overflow-hidden text-sm font-medium text-gray-600 dark:text-gray-400">
               <span
-                key={activeLanguage}
+                key={`${animationKey}-${activeLanguage}`}
                 className="absolute inset-0 block transition-all duration-700 ease-out"
                 style={{ animation: 'slotMachine 0.7s ease-out' }}
               >
