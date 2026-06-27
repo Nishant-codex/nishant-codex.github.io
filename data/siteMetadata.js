@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'My Portfolio',
   author: 'Nishant Joshi',
-  headerTitle: 'Nishant\'s Journey',
+  headerTitle: 'Nishant\'s Portfolio',
   description: '',
   language: 'en-us',
   theme: 'system', // system, dark or light
