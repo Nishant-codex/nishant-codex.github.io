@@ -10,7 +10,7 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 
-const languagePhrases = ['Bienvenue', 'Bienvenidos', 'Welcome', '欢迎', 'Willkommen', 'ようこそ']
+const languagePhrases = ['Bienvenue', 'Bienvenidos', 'Welcome', '欢迎', 'Willkommen', 'ようこそ', 'स्वागत है']
 
 const Header = () => {
   const pathname = usePathname()
