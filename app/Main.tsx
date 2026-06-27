@@ -22,22 +22,26 @@ export default function Home() {
               <h1 className="text-2xl font-bold leading-7 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-10">
                 About me
               </h1>
-              <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
-                I'm Nishant - a computational neuroscientist and research engineer with a
-                PhD from Radboud University at the Donders Institute. My work sits at the
-                intersection of single-neuron electrophysiology, neuromodulation, and
-                scalable machine learning pipelines for high-dimensional biological data.
+              <p>
+                I&apos;m Nishant — a computational neuroscientist and research engineer
+                with a PhD from Radboud University at the Donders Institute. My work
+                sits at the intersection of single-neuron electrophysiology,
+                neuromodulation, and scalable machine learning pipelines for
+                high-dimensional biological data.
               </p>
-              <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
-                During my PhD, I developed analysis frameworks to study how neuromodulatory
-                inputs shape cell-type-specific information transfer in cortical circuits.
-                I also worked on reproducible open-source workflows and FAIR data practices
-                through an MSCA-funded secondment at the Netherlands eScience Center.
+
+              <p>
+                During my PhD, I developed analysis frameworks to study how
+                neuromodulatory inputs shape cell-type-specific information transfer in
+                cortical circuits. I also worked on reproducible open-source workflows
+                and FAIR data practices through an MSCA-funded secondment at the
+                Netherlands eScience Center.
               </p>
-              <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
-                I'm currently exploring roles in academia, industry R&D, and research
-                engineering where I can contribute to computational modelling, neural
-                data analysis, and robust scientific infrastructure.
+
+              <p>
+                I&apos;m currently exploring roles in academia, industry R&amp;D, and
+                research engineering where I can contribute to computational
+                modelling, neural data analysis, and robust scientific infrastructure.
               </p>
             </div>
           </div>
