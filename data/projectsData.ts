@@ -8,17 +8,28 @@ interface Project {
 const projectsData: Project[] = [
   {
     title: 'Swiss-Knife for electrophysiology',
-    description: `In this project, I designed an end to end pipeline for analyzing single cell electrophysiolical data. 
-    The workflows range from preprocessing, feature extraction to unsupervised clustering and multi-modal integration. `,
+    description: `Built a production-style data pipeline for large-scale time-series analysis — from raw signal ingestion through feature extraction, dimensionality reduction, and unsupervised clustering. Processed 3.6+ billion data points across 1200+ recordings. Implemented with reproducibility-first principles including version control, containerization, and FAIR data standards. Delivered as part of two peer-reviewed publications. `,
     imgSrc: '/static/images/swissknife.png',
     href: 'https://github.com/Nishant-codex/single_cell_analysis',
   },
   {
     title: 'Heterogeniety in Reservoir Systems',
-    description: `This project was done in collaboration with Ghent University, here I co-designed a variant of DDN with intrinsic timescale heterogeneity. 
-    We tested the memory capacity, stability and dimensionality of these networks on benchmark tasks. The code was written in TensorFLow 2.x.`,
+    description: `Collaborated with Ghent University to design and evaluate neural network architectures with heterogeneous temporal dynamics. Benchmarked memory capacity, stability, and dimensionality across standard tasks, showing that architectural diversity improves performance. Built and trained models in TensorFlow 2.x on HPC infrastructure.`,
     imgSrc: '/static/images/reservoir.png',
     href: 'https://github.com/Nishant-codex/DDN-public',
+  },
+  {
+    title: 'Reverse Engineering Recurrent Neural Networks',
+    description: `Different neural network architectures solve the same task in fundamentally different ways. I systematically trained 100+ recurrent and spiking neural networks on a memory task and reverse engineered their internal dynamics using fixed-point analysis and dimensionality reduction to understand how design choices shape learned representations. Run on GPU-enabled HPC infrastructure using CUDA and SLURM.`,
+    imgSrc: '/static/images/fixed_points.png',
+    href: 'https://github.com/Nishant-codex/rnn_flip_flops',
+  },
+
+  {
+    title: 'GLIF Model Fitting',
+    description: `Migrated a neuron model fitting codebase from Python 2 to Python 3 and extended it with a BluePyOpt-based optimization variant, adding evolutionary algorithm support alongside the existing approach. Applied the refactored toolbox to fit biophysical models to experimental electrophysiology data, closing the loop between model development and real data validation.`,
+    imgSrc: '/static/images/GLIF.png',
+    href: 'https://github.com/Nishant-codex/GIFFittingToolbox',
   },
 
   {
@@ -30,23 +41,6 @@ const projectsData: Project[] = [
      planning and obstacle avoidance.`,
     imgSrc: '/static/images/robotics.jpg',
     href: 'https://github.com/Nishant-codex/CBS_path_planner',
-  },
-
-  {
-    title: 'Reverse Engineering Recurrent Neural Networks',
-    description: `I reverse engineered RNNs and SNNs by extracting their dynamical structure and internal representaion, in order to understand how they learn a memory task with different design choices.`,
-    imgSrc: '/static/images/fixed_points.png',
-    href: 'https://github.com/Nishant-codex/rnn_flip_flops',
-  },
-
-  {
-    title: 'GLIF Model Fitting',
-    description: `In this project, I refurbished the approach for 
-    fitting the GLIF model to experimental single cell electrophysiology data collected. 
-    This involved implementing efficient optimization 
-    algorithms and validating the model against ground truth data.`,
-    imgSrc: '/static/images/GLIF.png',
-    href: 'https://github.com/Nishant-codex/GIFFittingToolbox',
   },
 
   {
