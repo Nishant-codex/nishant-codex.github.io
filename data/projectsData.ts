@@ -7,7 +7,7 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'Swiss-Kinfe for electrophysiology',
+    title: 'Swiss-Knife for electrophysiology',
     description: `In this project, I designed an end to end pipeline for analyzing single cell electrophysiolical data. 
     The workflows ranges from preprocessing, feature extraction to unsupervised clustering and multi-modal integration. `,
     imgSrc: '/static/images/swissknife.png',
