@@ -1,3 +1,6 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
@@ -6,7 +9,19 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 
+const languagePhrases = ['Bienvenue', 'Bienvenidos', 'Welcome', '欢迎', 'Willkommen', 'ようこそ']
+
 const Header = () => {
+  const [activeLanguage, setActiveLanguage] = useState(0)
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setActiveLanguage((current) => (current + 1) % languagePhrases.length)
+    }, 2000)
+
+    return () => window.clearInterval(intervalId)
+  }, [])
+
   let headerClass = 'flex items-center w-full bg-white dark:bg-gray-950 justify-between py-10'
   if (siteMetadata.stickyNav) {
     headerClass += ' sticky top-0 z-50'
@@ -19,13 +34,15 @@ const Header = () => {
           <div className="mr-3">
             <Logo />
           </div>
-          {typeof siteMetadata.headerTitle === 'string' ? (
-            <div className="hidden h-6 text-2xl font-semibold sm:block">
-              {siteMetadata.headerTitle}
-            </div>
-          ) : (
-            siteMetadata.headerTitle
-          )}
+          <div className="relative hidden h-6 overflow-hidden text-2xl font-semibold sm:block">
+            <span
+              key={activeLanguage}
+              className="absolute inset-0 block text-gray-900 transition-all duration-700 ease-out dark:text-gray-100"
+              style={{ animation: 'slotMachine 0.7s ease-out' }}
+            >
+              {languagePhrases[activeLanguage]}
+            </span>
+          </div>
         </div>
       </Link>
       <div className="flex items-center space-x-4 leading-5 sm:space-x-6">
@@ -46,6 +63,22 @@ const Header = () => {
         <ThemeSwitch />
         <MobileNav />
       </div>
+      <style jsx>{`
+        @keyframes slotMachine {
+          0% {
+            opacity: 0;
+            transform: translateY(10px) scale(0.96);
+          }
+          40% {
+            opacity: 1;
+            transform: translateY(-2px) scale(1.01);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
+        }
+      `}</style>
     </header>
   )
 }

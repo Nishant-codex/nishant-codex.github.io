@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Journey into my life',
+  title: 'My Portfolio',
   author: 'Nishant Joshi',
   headerTitle: 'Nishant\'s Journey',
   description: '',
