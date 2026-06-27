@@ -11,7 +11,7 @@ const projectsData: Project[] = [
     description: `In this project, I designed an end to end pipeline for analyzing single cell electrophysiolical data. 
     The workflows ranges from preprocessing, feature extraction to unsupervised clustering and multi-modal integration. `,
     imgSrc: '/static/images/swissknife.png',
-    href: 'https://github.com/Nishant-codex/CBS_path_planner',
+    href: 'https://github.com/Nishant-codex/single_cell_analysis',
   },
 
   {
