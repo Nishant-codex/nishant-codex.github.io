@@ -13,6 +13,13 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/swissknife.png',
     href: 'https://github.com/Nishant-codex/single_cell_analysis',
   },
+  {
+    title: 'Heterogeniety in Reservoir Systems',
+    description: `This project was done in collaboration with Ghent University, here I co-designed a variant of DDN with intrinsic timescale heterogeniet. 
+    We tested the memory capacity, stability and dimensionality of these networks on benchmark tasks. The code was written in TensorFLow 2.x.`,
+    imgSrc: '/static/images/reservoir.png',
+    href: 'https://github.com/Nishant-codex/DDN-public',
+  },
 
   {
     title: 'Autonomous Warehousing',
