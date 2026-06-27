@@ -25,13 +25,14 @@ export default function Home() {
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
                 I’m Nishant, a researcher working at the crossroads of machine learning, robotics,
                 and computational neuroscience. My work focuses on understanding and building 
-                intelligent systems that are both theoretically grounded and practically useful.
+                intelligent systems that 
+                are both theoretically grounded and practically useful.
               </p>
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
                 I recently completed my PhD and currently exploring oppourtunities in which 
-                computation can help us understand complex behavior, design better tools, 
-                and connect abstract ideas with real-world applications. I'm on a 
-                lookout for job opportunities, feel free to reach out! 
+                computation can help us understand complex behavior, design better tools, and
+                connect abstract ideas with real-world applications. I'm on a lookout for job 
+                opportunities, feel free to reach out! 
               </p>
             </div>
           </div>
