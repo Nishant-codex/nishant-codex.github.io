@@ -34,14 +34,19 @@ const Header = () => {
           <div className="mr-3">
             <Logo />
           </div>
-          <div className="relative hidden h-6 overflow-hidden text-2xl font-semibold sm:block">
-            <span
-              key={activeLanguage}
-              className="absolute inset-0 block text-gray-900 transition-all duration-700 ease-out dark:text-gray-100"
-              style={{ animation: 'slotMachine 0.7s ease-out' }}
-            >
-              {languagePhrases[activeLanguage]}
-            </span>
+          <div className="hidden sm:block">
+            <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+              {siteMetadata.headerTitle}
+            </div>
+            <div className="relative mt-1 h-6 overflow-hidden text-sm font-medium text-gray-600 dark:text-gray-400">
+              <span
+                key={activeLanguage}
+                className="absolute inset-0 block transition-all duration-700 ease-out"
+                style={{ animation: 'slotMachine 0.7s ease-out' }}
+              >
+                {languagePhrases[activeLanguage]}
+              </span>
+            </div>
           </div>
         </div>
       </Link>
