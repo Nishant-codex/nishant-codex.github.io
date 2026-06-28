@@ -12,12 +12,14 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/swissknife.png',
     href: 'https://github.com/Nishant-codex/single_cell_analysis',
   },
+
   {
-    title: 'Heterogeniety in Reservoir Systems',
+    title: 'Heterogeneity in Reservoir Systems',
     description: `Collaborated with Ghent University to design and evaluate neural network architectures with heterogeneous temporal dynamics. Benchmarked memory capacity, stability, and dimensionality across standard tasks, showing that architectural diversity improves performance. Built and trained models in TensorFlow 2.x on HPC infrastructure.`,
     imgSrc: '/static/images/reservoir.png',
     href: 'https://github.com/Nishant-codex/DDN-public',
   },
+
   {
     title: 'Reverse Engineering Recurrent Neural Networks',
     description: `Different neural network architectures solve the same task in fundamentally different ways. I systematically trained 100+ recurrent and spiking neural networks on a memory task and reverse engineered their internal dynamics using fixed-point analysis and dimensionality reduction to understand how design choices shape learned representations. Run on GPU-enabled HPC infrastructure using CUDA and SLURM.`,
@@ -50,8 +52,6 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/dynamics.png',
     href: 'https://github.com/Nishant-codex/Controllability',
   },
-
-
  
   {
     title: 'Siamese Neural Network for extracting neural signatures',
@@ -67,15 +67,12 @@ const projectsData: Project[] = [
     href: 'https://www.google.com',
   },
 
-
   {
     title: 'Brain2 based neuron models',
     description: `This was a side project to implement common neuron models in order to fit them to noisy single cell electrophysiological data`,
     imgSrc: '/static/images/google.png',
     href: 'https://github.com/Nishant-codex/single_neuron_models',
   },
-
-
 
 ]
 
