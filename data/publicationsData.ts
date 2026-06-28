@@ -13,7 +13,7 @@ const publicationsData: Publication[] = [
 
 
   {
-    author: '<b>Joshi, N.</b>, van Der Burg, S., Celikel, T., & Zeldenrust, F.',
+    author: 'Joshi, N., van Der Burg, S., Celikel, T., & Zeldenrust, F.',
     title: 'Neuronal identity is not static: An input-driven perspective',
     journal: 'PLOS Computational Biology',
     volume: '21',
@@ -23,7 +23,7 @@ const publicationsData: Publication[] = [
     href: 'https://doi.org/10.1371/journal.pcbi.1013821',
   },
   {
-    author: '<b>Joshi, N.</b>, Yan, X., ..., Celikel, T., & Zeldenrust, F.',
+    author: 'Joshi, N., Yan, X., ..., Celikel, T., & Zeldenrust, F.',
     title: 'Neuromodulatory Control of Cortical Function: Cell-Type Specific Regulation of Neuronal Information Transfer',
     journal: 'bioRxiv',
     year: '2026',
