@@ -33,6 +33,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/GLIF.png',
     href: 'https://github.com/Nishant-codex/GIFFittingToolbox',
   },
+  {
+    title: 'Siamese Neural Network for extracting neural signatures',
+    description: `I implemented a Siamese neural network to extract meaningful signatures of neurons recorded across two different patch clamp protocols.`,
+    imgSrc: '/static/images/google.png',
+    href: 'https://github.com/Nishant-codex/Siamese_net',
+  },
 
   {
     title: 'Autonomous Warehousing',
@@ -53,12 +59,6 @@ const projectsData: Project[] = [
     href: 'https://github.com/Nishant-codex/Controllability',
   },
  
-  {
-    title: 'Siamese Neural Network for extracting neural signatures',
-    description: `I implemented a Siamese neural network to extract meaningful signatures of neurons recorded across two different patch clamp protocols.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://github.com/Nishant-codex/Siamese_net',
-  },
 
  {
     title: 'Manifold Alignment for Neural Data',
