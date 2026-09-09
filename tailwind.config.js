@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
+        typewriter: ['var(--font-special-elite)', 'monospace'],
       },
       colors: {
         primary: colors.blue,

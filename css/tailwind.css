@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.poem-paper {
+  @apply mx-auto border border-gray-200 bg-white px-6 py-10 text-gray-900 shadow-sm sm:px-12 sm:py-14;
+  line-height: 1.9;
+}
+
+.poem-paper p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.poem-paper p:first-child {
+  margin-top: 0;
+}
+
+.poem-paper p:last-child {
+  margin-bottom: 0;
+}
+
 .task-list-item::before {
   @apply hidden;
 }
