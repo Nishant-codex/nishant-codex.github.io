@@ -20,6 +20,7 @@ const space_grotesk = Space_Grotesk({
 
 const special_elite = Special_Elite({
   subsets: ['latin'],
+  weight: '400',
   display: 'swap',
   variable: '--font-special-elite',
 })
