@@ -25,10 +25,12 @@ const publicationsData: Publication[] = [
   {
     author: 'Joshi, N., Yan, X., ..., Celikel, T., & Zeldenrust, F.',
     title: 'Neuromodulatory Control of Cortical Function: Cell-Type Specific Regulation of Neuronal Information Transfer',
-    journal: 'bioRxiv',
+    journal: 'Proc. Natl. Acad. Sci. U.S.A',
+    volume: '123 (43)',
+    pages: 'e2609893123',
     year: '2026',
-    doi: '10.1101/2026.03.04.669845v1',
-    href: 'https://www.biorxiv.org/content/10.1101/2026.03.04.669845v1',
+    doi: '10.1073/pnas.2609893123',
+    href: 'https://doi.org/10.1073/pnas.2609893123',
   },
 
 ]
