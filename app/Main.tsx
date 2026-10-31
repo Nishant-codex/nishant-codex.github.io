@@ -24,9 +24,9 @@ export default function Home() {
               </h1>
               {/* prettier-ignore */}
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
-                I'm Nishant - a computational neuroscientist and research engineer with a
-                PhD from Radboud University at the Donders Institute. My work sits at the intersection of
-                single-neuron electrophysiology, neuromodulation, and
+                I'm Nishant -- a computational neuroscientist and research engineer with a
+                PhD from Radboud University at the Donders Institute, Netherlands. My work sits at the 
+                intersection of single-neuron electrophysiology, neuromodulation, and
                 scalable machine learning pipelines for high-dimensional biological data.
               </p>
 
@@ -40,9 +40,9 @@ export default function Home() {
 
               {/* prettier-ignore */}
               <p className="max-w-3xl text-lg leading-7 text-gray-600 dark:text-gray-400">
-                I'm currently exploring roles in academia, industry R&D, and research
-                engineering where I can contribute to computational modelling, neural
-                data analysis, and robust scientific infrastructure.
+                If I am not working I can be found outdoors, cycling, running, squashing, or playing any sport (actually). 
+                Well, I am also indoors, and when I am, I noodle on my guitar and write stuff. 
+                Though I prefer outdoors, so yeah. 
               </p>
             </div>
           </div>
